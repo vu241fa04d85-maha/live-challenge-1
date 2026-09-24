@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socially AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="page">
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">
+            <div class="logo-box">✦</div>
+            <h2>Socially</h2>
+        </div>
+
+        <nav>
+            <a class="active" href="#">Dashboard</a>
+            <a href="#">Posts</a>
+            <a href="#">Insights</a>
+            <a href="#">Calendar</a>
+            <a href="#">Settings</a>
+        </nav>
+
+        <div class="profile">
+            <div class="bell">♧</div>
+            <div class="avatar">M</div>
+        </div>
+    </header>
+
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- LEFT -->
+        <div class="left">
+
+            <div class="welcome card">
+                <span class="badge">AI POWERED</span>
+
+                <h1>Create<br>Something<br>Amazing.</h1>
+
+                <p>
+                    Plan, create and grow your social
+                    media with intelligent AI tools.
+                </p>
+
+                <button>Create New Post →</button>
+            </div>
+
+
+            <div class="idea card">
+                <div class="icon">✦</div>
+
+                <h2>AI Ideas</h2>
+
+                <p>
+                    Need inspiration? Let AI generate
+                    creative content ideas for you.
+                </p>
+
+                <div class="idea-box">
+                    💡
+                    <span>Generate a new content idea...</span>
+                </div>
+
+                <button class="blue-btn">Generate</button>
+            </div>
+
+        </div>
+
+
+        <!-- CENTER -->
+        <div class="center">
+
+            <div class="hero card">
+
+                <div>
+                    <span class="small-tag">SMART CONTENT</span>
+
+                    <h2>
+                        Your Social Media,
+                        <br>
+                        <strong>Supercharged by AI.</strong>
+                    </h2>
+
+                    <p>
+                        Create better posts. Reach more people.
+                        Save more time.
+                    </p>
+
+                    <div class="platforms">
+                        <span>◎</span>
+                        <span>𝕏</span>
+                        <span>f</span>
+                        <span>in</span>
+                        <span>▶</span>
+                    </div>
+                </div>
+
+                <div class="rocket">🚀</div>
+
+            </div>
+
+
+            <div class="stats">
+
+                <div class="stat card">
+                    <span>👥</span>
+                    <p>Total Followers</p>
+                    <h2>24,850</h2>
+                    <small>↑ 18.4%</small>
+                </div>
+
+                <div class="stat card">
+                    <span>❤️</span>
+                    <p>Engagement</p>
+                    <h2>8.62%</h2>
+                    <small>↑ 12.8%</small>
+                </div>
+
+                <div class="stat card">
+                    <span>📈</span>
+                    <p>Total Reach</p>
+                    <h2>56.4K</h2>
+                    <small>↑ 21.3%</small>
+                </div>
+
+            </div>
+
+
+            <div class="growth card">
+
+                <div class="growth-head">
+                    <div>
+                        <h2>Audience Growth</h2>
+                        <p>Last 7 days</p>
+                    </div>
+
+                    <strong>+18.4%</strong>
+                </div>
+
+                <div class="graph">
+                    <div class="line"></div>
+
+                    <span class="point p1"></span>
+                    <span class="point p2"></span>
+                    <span class="point p3"></span>
+                    <span class="point p4"></span>
+                    <span class="point p5"></span>
+                    <span class="point p6"></span>
+                    <span class="point p7"></span>
+                </div>
+
+                <div class="graph-days">
+                    <span>Mon</span>
+                    <span>Tue</span>
+                    <span>Wed</span>
+                    <span>Thu</span>
+                    <span>Fri</span>
+                    <span>Sat</span>
+                    <span>Sun</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- RIGHT -->
+        <div class="right">
+
+            <div class="calendar card">
+
+                <h2>Content Calendar</h2>
+                <p>September 2026</p>
+
+                <div class="calendar-grid">
+
+                    <b>M</b>
+                    <b>T</b>
+                    <b>W</b>
+                    <b>T</b>
+                    <b>F</b>
+                    <b>S</b>
+                    <b>S</b>
+
+                    <span></span>
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <span>5</span>
+                    <span>6</span>
+
+                    <span>7</span>
+                    <span>8</span>
+                    <span>9</span>
+                    <span class="event">10</span>
+                    <span>11</span>
+                    <span>12</span>
+                    <span>13</span>
+
+                    <span>14</span>
+                    <span>15</span>
+                    <span class="today">16</span>
+                    <span>17</span>
+                    <span>18</span>
+                    <span>19</span>
+                    <span>20</span>
+
+                    <span>21</span>
+                    <span>22</span>
+                    <span>23</span>
+                    <span>24</span>
+                    <span>25</span>
+                    <span>26</span>
+                    <span>27</span>
+
+                    <span>28</span>
+                    <span>29</span>
+                    <span>30</span>
+
+                </div>
+
+                <button class="calendar-btn">
+                    + Schedule Post
+                </button>
+
+            </div>
+
+
+            <div class="best card">
+
+                <div class="best-icon">⚡</div>
+
+                <h2>Best Time</h2>
+
+                <p>Your audience is most active at</p>
+
+                <h1>6:00 PM</h1>
+
+                <div class="mini-bars">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </div>
+
+                <div class="time">
+                    <span>9 AM</span>
+                    <span>12 PM</span>
+                    <span>3 PM</span>
+                    <span>6 PM</span>
+                    <span>9 PM</span>
+                </div>
+
+            </div>
+
+
+            <div class="upgrade card">
+
+                <div class="star">✦</div>
+
+                <h2>Make Content<br>That Stands Out.</h2>
+
+                <p>
+                    Use AI to create captions,
+                    ideas and campaigns faster.
+                </p>
+
+                <button>Try AI Tools →</button>
+
+            </div>
+
+        </div>
+
+    </main>
+
+</div>
+
+</body>
+</html>
